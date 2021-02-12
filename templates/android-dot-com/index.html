@@ -31,7 +31,10 @@
               })(window,document,'script','dataLayer','GTM-MPJFLGG');
       </script>
       <!-- End Google Tag Manager -->
- 
+      <!-- Data layer-->
+      <script>
+        dataLayer = [];
+      </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
@@ -92,6 +95,7 @@
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
             </nav>
           </div>
+          <a href="#" name="button1" onclick="dataLayer.push({'event': 'button1-click'});" >Button 1</a>
           <button id="botaobea">Meu Botão</button>
           <span class="android-mobile-title mdl-layout-title">
             <img class="android-logo-image" src="images/android-logo.png">
